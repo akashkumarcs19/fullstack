@@ -1,136 +1,116 @@
-* {
-    margin: 0;
-    box-sizing: border-box;
-    padding: 0;
-  }
-  .main {
-    margin: 10px;
-  }
-  .head {
-    width: 100%;
-    height: 40px;
-    background: gray;
-    text-align: center;
-    color: white;
-    padding: 10px;
-    font-family: Arial;
-    font-weight: bolder;
-  }
-  .banner {
-    width: 100%;
-    height: 100vh;
-    background-color: skyblue;
-    text-align: center;
-    color: white;
-    padding: 15%;
-    font-family: Arial;
-    margin-top: 10px;
-    font-weight: bolder;
-  }
-  .sec1 {
-    width: 100%;
-    height: 100vh;
-    text-align: center;
-    color: black;
-    padding: 10px;
-    font-family: Arial;
-    font-weight: bolder;
-    margin-top: 10px;
-  }
+*{
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+.container{
+  margin: 30px auto;
+  background: #f5b0b0;
+  height: 1200px;
+  width: 1000px;
+}
+.header{
+  height: 50px;
+  width: auto;
+  background: brown;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: auto auto;
+  display: flex;
+}
+.header p{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.Banner{
+  height: 250px;
+  width: auto;
+  background: green;
+  text-align: center;
+  justify-content: center;
+ align-items: center;
+  display: flex;
+}
+.Banner p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+}
+.Section-1{
+  height: 250px;
+  width: auto;
+  background: white;
   
-  .circle {
-    width: 20%;
-    height: 90%;
-    background: yellow;
-    display: inline-flex;
-    margin-top: 5px;
-    margin-left: 2%;
-    margin-right: 2%;
-    border-radius: 50%;
-  }
-  
-  .sec2 {
-    width: 100%;
-    height: 100vh;
-    text-align: center;
-    color: black;
-    padding: 10px;
-    font-family: Arial;
-    font-weight: bolder;
-    margin-top: 10px;
-  }
-  
-  .right {
-    width: 49%;
-    height: 90%;
-    float: right;
-    margin-top: 1%;
-  }
-  
-  .left {
-    width: 49%;
-       color: rgb(88, 73, 73);
-    font-family: Arial;
-    font-weight: bolder;
-   text-align: center;
-  }
-  
-  .col {
-    width: 100%;
-    background-color:orange;
-    height: 32%;
-    margin-bottom: 14px;
-    color: white;
-    font-family: Arial;
-    font-weight: bolder;
-    /* padding:%; */
-     line-height: 31vh; 
-     text-align: center; 
-  }
-  
-  .sec3 {
-    width: 100%;
-    height: 100vh;
-    text-align: center;
-    color: black;
-    padding: 10px;
-    font-family: Arial;
-    font-weight: bolder;
-    margin-top: 10px;
-  }
-  
-  .rec {
-    width: 20%;
-    height: 90%;
-    background: red;
-    display: inline-flex;
-    margin-top: 1%;
-    margin-left: 2%;
-    margin-right: 2%;
-  }
-  
-  .footer {
-    width: 100%;
-    height: 80px;
-    text-align: center;
-    color: black;
-    font-family: Arial;
-    font-weight: bolder;
-    margin-top: 10px;
-  }
-  
-  .bar {
-    width: 100%;
-    height: 50px;
-    background: pink;
-    text-align: center;
-    color: white;
-    font-family: Arial;
-    font-weight: bolder;
-    margin-top: 10px;
-    padding: 10px;
-   background-color: gray;
-    height: 90%;
-    float: left;
-    margin-top: 1%;
-  }
+}
+.circle{
+  border-radius: 100%;
+  background: yellow;
+  height: 200px;
+  width:20%;
+}
+
+.circleContainer{
+  /* text-align: center; */
+  justify-content: space-evenly;
+ align-items: center;
+  display: flex;
+}
+
+h2{
+  text-align: center;
+}
+.Section-2{
+  background: white;
+  height: 400px;
+  width: auto;
+}
+.sec2container{
+  display: inline-flex;
+  height: 93%;
+  width: 100%    ;
+}
+.main_content{
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: chocolate;
+}
+.Article{
+  width: 50%;
+  height: 100%;
+  margin-left: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.Article1{
+  width: 100%;
+  height: 32%;
+  background-color:brown;
+}
+.Section-3{
+  height: 350px;
+  background: burlywood;
+}
+.card{
+  height: 300px;
+  width: 20%;
+  background: cadetblue;
+
+}
+
+.footer{
+  height: 70px;
+  background-color: darkblue;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer p{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+}
