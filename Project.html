@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects-Management(Admin-Portal)</title>
+    <link rel="stylesheet" href="./Project.css"> 
+</head>
+<body>
+    <div class="container">
+    <div class="header">
+    
+        <nav>
+            <ul>
+                <li><a href="">Dashboard</a></li>
+                <li><a href="">Projects</a>
+                    <!--Inside Projects-->
+                <ul>
+
+                    <li><a href="">My Projects</a></li>
+                    <li><a href="">Add new Projects</a></li>
+                    <li><a href="">All Projects</a></li>
+
+                </ul>
+                <li><a href="">Tasks</a>
+
+                    <!--First Tier Drop Down-->
+                    <ul> 
+
+
+                        <li><a href="">My Tasks</a></li>
+                        <li><a href="">Add new Task</a></li>
+                        <li><a href="">All Tasks</a>
+
+                            <!--Second Tier Drop Down-->
+
+                            <ul>
+
+                                <li><a href="">HTML/CSS</a></li>
+                                <li><a href="">JQuery</a></li>
+                                <li><a href="">Outher</a>
+
+                                    <!-- Third Tier Drop Down-->
+                                    <ul>
+
+                                        <li><a href="">Stuff</a></li>
+                                        <li><a href="">Things</a></li>
+                                        <li><a href="">Outher Stuff</a></li>
+
+                                    </ul>
+
+                                </li>
+
+                            </ul>
+
+                        </li>
+
+                    </ul>
+
+                </li>
+                <li><a href="">Users</a>
+                    <ul>
+
+                        <li><a href="">All Users </a></li>
+                        <li><a href="">Add new Users</a></li>
+
+                    </ul>
+                </li>
+                <li><a href="">Profile</a></li>
+                <li><a href="">Log-out</a></li>
+                <!-- <li><a href="">About</a></li> -->
+                <h1 style="float: right;">Admin-Portal</h1>
+            </ul>
+            
+        </nav>
+        </div> <!--End of header-->
+        <div class="dash-text">
+            <p style="font-size: 50px;font-family: Arial, Helvetica, sans-serif;color: solid black;">Dashboard</p>
+        </div>
+        <!-- <div class="Section-1"> -->
+            <div class="main_div">
+                <div class="center_div">
+                    <h2>Projects Status </h2>
+                    <div class="pie-chart">
+                         
+                    </div>
+                    <p>
+                        Cancelled <span style="color: black;"></span><br>
+                        In-progress <span style="color: green;"></span><br>
+                        Completed <span style="color: yellow;"></span><br>
+                        On-hold <span style="color: lightgray;"></span><br>
+                        Past-due <span style="color: pink;"></span>
+                    </p>
+                    <h3>All Projects
+                    </h3>
+                </div>
+            </div>
+            
+        <!-- </div> -->
+        <div class="project-table">
+            <table class="mytable">
+                <tr>
+                  <th style="font-weight: bolder; font-size: larger;">Status</th>
+                  <th style="font-weight: bolder; font-size: larger;">Total</th>
+                </tr>
+                <tr>
+                  <td>Cancelled</td>
+                  <td>2</td>
+                </tr>
+                <tr>
+                  <td>Completed</td>
+                  <td>4</td>
+                </tr>
+                <tr>
+                  <td>In Progress</td>
+                  <td>5</td>
+                </tr>
+                <tr>
+                    <td>Not Started</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>On Hold</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>Past Due</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                   
+                  <td style="font-weight: bold; color:  #4d0000;">GRAND TOTAL</td>
+                  <td style="font-weight: bold; color:  #4d0000;">20</td>
+              
+              </tr>
+               
+              </table>
+        </div>
+        <div class="project-table">
+            <table class="mytable">
+                <thead>
+                    <th>Project status</th>   <!--Needs Improvement -->
+                </thead>
+                <tr>
+                  <th style="font-weight: bolder; font-size: larger;">Name</th>
+                  <th style="font-weight: bolder; font-size: larger;">Total</th>
+                </tr>
+                <tr>
+                  <td>Akash</td>
+                  <td>2</td>
+                </tr>
+                <tr>
+                  <td>Ankit</td>
+                  <td>4</td>
+                </tr>
+                <tr>
+                  <td>Ansh</td>
+                  <td>5</td>
+                </tr>
+                <tr>
+                    <td>Ayush</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>Anuj</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>Amrendra</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                   
+                  <td style="font-weight: bold; color:  #4d0000;">GRAND TOTAL</td>
+                  <td style="font-weight: bold; color:  #4d0000;">20</td>
+              
+              </tr>
+               
+              </table>
+        </div>
+    </div>
+
+</body>
+</html>
