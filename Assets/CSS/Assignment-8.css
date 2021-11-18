@@ -11,12 +11,12 @@
 }
 .header{
   height: 50px;
-  width: auto;
+  /* width: auto; */
   background: brown;
   text-align: center;
   justify-content: center;
   align-items: center;
-  margin: auto auto;
+  /* margin: auto auto; */
   display: flex;
 
 }

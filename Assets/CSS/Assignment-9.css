@@ -6,17 +6,17 @@
   .container{
     margin: 30px auto;
     background: #f5b0b0;
-    height: 1200px;
-    width: 1000px;
+    /* height: 1200px;
+    width: 1000px; */
   }
   .header{
-    height: 50px;
+    /* height: 50px; */
     width: auto;
     background: brown;
-    text-align: center;
+    /* text-align: center; */
     justify-content: center;
     align-items: center;
-    margin: auto auto;
+    /* margin: auto auto; */
     display: flex;
   
   }
@@ -28,8 +28,9 @@
   .header ul li{
     
      width: auto;
-     margin: 25px;
+     margin: 10px ;
      padding: 12px;
+     /* justify-content: space-evenly; */
      color: white;
   }
   .header ul li:hover{
@@ -41,7 +42,7 @@
   }
   .Banner{
     height: 500px;
-    width: auto;
+    /* width: auto; */
     background: green;
     /* text-align: center;
     justify-content: center; */
@@ -58,7 +59,7 @@
     padding: 20px;
   }
   .Section-1{
-    height: 250px;
+    /* height: 250px; */
     width: auto;
     background: burlywood;
     
